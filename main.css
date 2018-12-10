@@ -20,9 +20,10 @@ a:hover, a:active, fab:hover {
 i {
     margin-right: 0.25em;
 }
+
 .main {
     text-align: center;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     padding-top: 24px;
 }
