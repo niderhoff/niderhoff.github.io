@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Iderhoff - Personal Landing Page</title>
     <style>
+        @font-face {
+            font-family: 'DepartureMono';
+            src: url('fonts/DepartureMono-Regular.woff2') format('woff2'),
+                 url('fonts/DepartureMono-Regular.woff') format('woff'),
+                 url('fonts/DepartureMono-Regular.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
         body {
-            font-family: monospace;
+            font-family: 'DepartureMono', monospace;
             background-color: black;
             color: white;
             margin: 0;
@@ -15,7 +24,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 14px;
+            font-size: 11px;
         }
         .container {
             max-width: 600px;
@@ -29,22 +38,26 @@
             margin-bottom: 32px;
         }
         h1 {
-            font-size: 2rem;
+            font-size: 44px;
             font-weight: bold;
             margin-bottom: 8px;
         }
         .subtitle {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             margin-bottom: 16px;
         }
         p {
             margin-bottom: 32px;
-            font-size: 1rem;
+            line-height: 33px;
+            font-size: 1.25rem;
+        }
+        .small {
+            font-size: 0.75rem;
         }
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 24px;
+            gap: 22px;
         }
         .social-link {
             color: white;
@@ -59,12 +72,14 @@
     <div class="container">
         <img src="avatar.png" alt="Avatar" class="avatar">
         <h1>Nicolas Iderhoff</h1>
-            <p class="subtitle">Architect and Tech-Lead for GenAI & LLM Solutions <br /> Berlin, Germany</p>
+            <p class="subtitle">Architect/Tech-Lead <br> GenAI & LLM Solutions <br><br>Berlin, Germany</p>
         <p>
-            Hey there! 👋 I'm a Solution Architect and Tech Lead for AI and ML, and I help teams to build LLM and RAG solutions. Currently I am working on large enterprise problems to build secure and scalable solutions with data-privacy in mind.
+            Hey there! 👋 I help teams to build LLM and RAG solutions. Currently I am working on large enterprise problems to build secure and scalable solutions with data-privacy in mind.
             </p>
             <p>
             My focus is on driving innovation through accelerated development, quick iteration, and early feedback to deliver practical results. 🚀
+            </p>
+            <p>
             I'm your go-to guy for bridging the gap between cutting-edge tech and practical business applications.
             </p>
             <p>
